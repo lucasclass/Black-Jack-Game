@@ -1,0 +1,35 @@
+*{margin: 0; padding: 0;}
+
+html{
+    font-family: 'Fira Code';
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+    color: white;
+    font-weight: 100;
+    margin: 10px 10px;
+    position: relative;
+}
+
+p{
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.anianiani{
+    width: 500px;
+    height: 400px;
+    background-color: skyblue;
+    border-radius: 15px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
