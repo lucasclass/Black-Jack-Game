@@ -3,6 +3,7 @@
 html{
     font-family: 'Fira Code';
     text-align: center;
+    background-color: black;
 }
 
 h1{
@@ -22,7 +23,7 @@ p{
 .anianiani{
     width: 500px;
     height: 400px;
-    background-color: skyblue;
+    background-color: rgb(0, 13, 19);
     border-radius: 15px;
     position: absolute;
     display: flex;

@@ -1,21 +1,38 @@
-let firstCard = 10
-let secondCard = 11
-let sum = firstCard + secondCard
+/* let age = 22
+console.log(age)
 
-
-if (sum < 21) {
-    console.log("Quer uma nova carta?")
-} else if (sum === 21) {
-    console.log("weeeeah porra, ganhou!")
+if (age >= 21){
+  console.log("Pode entrar pae")
 } else {
-    console.log("perdeu padrin :(")
+  console.log("Vaza rapa!!!")
 }
 
-let age = 22
+let age2 = 100
 
-let welcomeEl = document.getElementById("welcome-el")
+if (age2 < 100) {
+    console.log("Não legítimo")
+} else if (age2 === 100) {
+    console.log("Aqui o seu cartão de aniversário do Rei!")
+} else {
+    console.log("Não legítimo, você já tem um cartão")
+} */
 
-let nome = "Lucas Class"
-let saudação = "Bem vindo "
+let firstCard = 10
+let secondCard = 11
+let soma = firstCard + secondCard + 9
+let hasBlackJack = false
+let isAlive = true
 
-welcomeEl.innerText = saudação + nome
+console.log(soma)
+
+if (soma < 21) {
+  console.log("Quer uma nova quarta? 🤔 ")
+} else if (soma === 21) {
+  console.log("Tu é brabo, ganhou! 😎 ")
+  hasBlackJack = true
+} else {
+  console.log("Perdeu padrin 😢 ")
+  isAlive = false
+}
+
+console.log(isAlive)
