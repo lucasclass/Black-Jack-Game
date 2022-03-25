@@ -22,17 +22,18 @@ let secondCard = 11
 let soma = firstCard + secondCard + 9
 let hasBlackJack = false
 let isAlive = true
+let mensagem = ""
 
 console.log(soma)
 
 if (soma < 21) {
-  console.log("Quer uma nova quarta? 🤔 ")
+  mensagem = "Quer uma nova quarta? 🤔 "
 } else if (soma === 21) {
-  console.log("Tu é brabo, ganhou! 😎 ")
+  mensagem = "Tu é brabo, ganhou! 😎 "
   hasBlackJack = true
 } else {
-  console.log("Perdeu padrin 😢 ")
+  mensagem = "Perdeu padrin 😢 "
   isAlive = false
 }
 
-console.log(isAlive)
+console.log(mensagem)

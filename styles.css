@@ -1,36 +1,30 @@
 *{margin: 0; padding: 0;}
 
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+
 html{
-    font-family: 'Fira Code';
+    font-family: 'Fira Code', monospace;
+    background-color: rgb(17, 68, 6);
     text-align: center;
-    background-color: black;
+}
+
+body{
+    background-image: url(imagens/table.png);
+    background-size: calc();
 }
 
 h1{
-    font-size: 40px;
-    color: white;
-    font-weight: 100;
-    margin: 10px 10px;
-    position: relative;
+    color: goldenrod;
+    margin: 20px;
+    margin-top: 80px;
+    font-weight: 700;
+    font-size: 45px;
 }
 
 p{
-    font-size: 16px;
-    margin-top: 0;
-    margin-bottom: 20px;
-}
-
-.anianiani{
-    width: 500px;
-    height: 400px;
-    background-color: rgb(0, 13, 19);
-    border-radius: 15px;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    left: 50%;
-    top: 40%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(31, 31, 31);
+    margin-top: 20px;
 }

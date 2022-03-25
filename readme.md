@@ -20,4 +20,7 @@
 
 > Liberar o dinheiro! 
 >> Crie uma virável chamada isAlive e set como true
->> Troque o valor para falso em um propriado bloco de código
+>>> Troque o valor para falso em um propriado bloco de código
+
+> Declarar uma variável chamada mensagem e atribuir uma string vazia 
+>> Reassine a variávem mensagem para a string
